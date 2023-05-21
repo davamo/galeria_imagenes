@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   get 'pages/index'
-  #get 'images/thumbs'
+  #get 'pages/webfonts'
   #get 'images/fulls'
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
