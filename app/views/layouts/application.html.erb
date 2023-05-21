@@ -24,6 +24,9 @@
 							<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
 							<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
 							<li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li>
+              <li class="nav-item <%= 'active' if current_page?(information_path) %>">
+                <%= link_to 'Information Galery', information_path, class: 'nav-link' %>
+              </li>  
 						</ul>
 					</header>
 
